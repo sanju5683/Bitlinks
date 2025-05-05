@@ -10,6 +10,12 @@ BitLinks is a modern and user-friendly URL shortening service built with Next.js
 - **Responsive Design**: Fully responsive and mobile-friendly interface.
 - **Secure**: Built with MongoDB for secure data storage.
 
+## Live Preview
+
+You can try out the live version of this project by visiting the following link:
+
+[Live Preview](https://bitlinks-alpha.vercel.app/)
+
 ## Tech Stack
 
 - **Frontend**: React, Next.js, Tailwind CSS
