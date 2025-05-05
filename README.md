@@ -1,18 +1,58 @@
-# 📝 API Routes – Next.js (App Router)
-API Routes allow you to write backend code in your Next.js app.
+# BitLinks - URL Shortener
 
-You can create routes to handle data using GET, POST, PUT, DELETE, etc.
+BitLinks is a modern and user-friendly URL shortening service built with Next.js. It allows users to create short, memorable links for their websites, track their performance, and manage them efficiently.
 
-All files are placed inside the app/api folder.
+## Features
 
-Each folder inside api becomes an endpoint (route).
+- **URL Shortening**: Easily shorten long URLs into concise, shareable links.
+- **Custom Short URLs**: Users can specify their preferred short URL.
+- **Analytics**: Track the performance of your links (future enhancement).
+- **Responsive Design**: Fully responsive and mobile-friendly interface.
+- **Secure**: Built with MongoDB for secure data storage.
 
-Inside each route folder, you must have a route.js (or route.ts) file.
+## Tech Stack
 
-In route.js, you define functions like GET(), POST() to handle requests.
+- **Frontend**: React, Next.js, Tailwind CSS
+- **Backend**: Next.js API Routes
+- **Database**: MongoDB
 
-These routes run on the server (not visible in browser).
+## Project Structure
 
-You can call these routes from your frontend using fetch().
+## Getting Started
 
-Response is returned using Response.json().
+### Prerequisites
+
+- Node.js (v18 or higher)
+- MongoDB instance
+- Environment variables configured in `.env.local`:MONGODB_URI=<your-mongodb-uri> NEXT_PUBLIC_HOST=<your-host-url>
+
+
+### Installation
+
+1. Clone the repository:
+```bash
+ git clone <repository-url>
+ cd Project-URL_Shortener
+```
+
+3. Run the development server:
+`npm run dev`
+
+4. Open the app in your browser:
+http://localhost:3000
+
+
+
+### Deployment
+To deploy the app, use platforms like Vercel or Netlify. Ensure the environment variables are configured in the deployment settings.
+
+### Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+### License
+This project is licensed under the MIT License.
+
+### Acknowledgments
+Next.js
+Tailwind CSS
+MongoDB
