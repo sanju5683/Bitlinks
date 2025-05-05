@@ -86,7 +86,7 @@ function ShortenPage() {
           </div>
           <button
             type="submit"
-            className="bg-purple-700 hover:bg-purple-800 text-white font-semibold py-2 px-4 rounded shadow"
+            className=" cursor-pointer bg-purple-700 hover:bg-purple-800 text-white font-semibold py-2 px-4 rounded shadow"
           >
             Generate
           </button>
