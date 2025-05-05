@@ -7,7 +7,7 @@ function AboutPage() {
         <h1 className="text-3xl font-bold text-purple-700 mb-4">About BitLinks</h1>
         <p className="text-lg leading-relaxed mb-4">
           BitLinks is a powerful and easy-to-use URL shortening service designed to help you manage and share your links efficiently. 
-          Whether you're a business looking to track your marketing campaigns or an individual sharing links with friends, 
+          Whether you&apos;re a business looking to track your marketing campaigns or an individual sharing links with friends, 
           BitLinks makes it simple and effective.
         </p>
         <p className="text-lg leading-relaxed mb-4">

@@ -6,7 +6,7 @@ function ContactPage() {
       <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-8">
         <h1 className="text-3xl font-bold text-purple-700 mb-6">Contact Us</h1>
         <p className="text-lg leading-relaxed mb-6">
-          Have questions or need assistance? Feel free to reach out to us using the form below. We're here to help!
+          Have questions or need assistance? Feel free to reach out to us using the form below. We&apos;re here to help!
         </p>
         <form className="space-y-4">
           <div>

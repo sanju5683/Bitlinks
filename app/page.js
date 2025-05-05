@@ -39,7 +39,7 @@ export default function Home() {
       <div className="mt-6 w-full">
         <h2 className="text-2xl font-semibold text-purple-700 mb-4">Contact Us</h2>
         <p className="text-lg leading-relaxed mb-4">
-          If you have any questions or need assistance, feel free to reach out to us. We're here to help!
+          If you have any questions or need assistance, feel free to reach out to us. We&apos;re here to help!
         </p>
         <Link href="/contact">
         <button className="bg-purple-700 hover:bg-purple-800 text-white font-semibold py-2 px-4 rounded shadow">
